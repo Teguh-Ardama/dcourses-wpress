@@ -1,0 +1,20 @@
+2022-03-16T02:41:55+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (Sel 08 Mar 2022, 01:47:09 pm) at position 0 (S): The timezone could not be found in the database in /home/dcom4536/public_html/wp-content/plugins/tutor/classes/Utils.php:9433
+Stack trace:
+#0 /home/dcom4536/public_html/wp-content/plugins/tutor/classes/Utils.php(9433): DateTime->__construct('Sel 08 Mar 2022...')
+#1 /home/dcom4536/public_html/wp-content/plugins/tutor/templates/dashboard/my-profile.php(13): TUTOR\Utils->convert_date_into_wp_timezone('Sel 08 Mar 2022...')
+#2 /home/dcom4536/public_html/wp-content/plugins/tutor/includes/tutor-template-functions.php(115): include('/home/dcom4536/...')
+#3 /home/dcom4536/public_html/wp-content/plugins/tutor/templates/dashboard.php(230): tutor_load_template('dashboard.my-pr...')
+#4 /home/dcom4536/public_html/wp-includes/template-loader.php(106): include('/home/dcom4536/...')
+#5 /home/dcom4536/public_html/wp-blog-header.php(19): require_once('/home/dcom4536/...')
+#6 /home/dcom4536/public_html/index di /home/dcom4536/public_html/wp-content/plugins/tutor/classes/Utils.php pada baris 9433
+
+2022-03-16T02:42:53+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (Sel 08 Mar 2022, 01:47:09 pm) at position 0 (S): The timezone could not be found in the database in /home/dcom4536/public_html/wp-content/plugins/tutor/classes/Utils.php:9433
+Stack trace:
+#0 /home/dcom4536/public_html/wp-content/plugins/tutor/classes/Utils.php(9433): DateTime->__construct('Sel 08 Mar 2022...')
+#1 /home/dcom4536/public_html/wp-content/plugins/tutor/templates/dashboard/my-profile.php(13): TUTOR\Utils->convert_date_into_wp_timezone('Sel 08 Mar 2022...')
+#2 /home/dcom4536/public_html/wp-content/plugins/tutor/includes/tutor-template-functions.php(115): include('/home/dcom4536/...')
+#3 /home/dcom4536/public_html/wp-content/plugins/tutor/templates/dashboard.php(230): tutor_load_template('dashboard.my-pr...')
+#4 /home/dcom4536/public_html/wp-includes/template-loader.php(106): include('/home/dcom4536/...')
+#5 /home/dcom4536/public_html/wp-blog-header.php(19): require_once('/home/dcom4536/...')
+#6 /home/dcom4536/public_html/index di /home/dcom4536/public_html/wp-content/plugins/tutor/classes/Utils.php pada baris 9433
+
